@@ -1,0 +1,123 @@
+/* THIS IS FOR THE PROJECTS LAYOUT */
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: Kanit;
+}
+#video{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+.title{
+    box-shadow: 5px 5px 10px black;
+    border: 3px solid black;
+    width: 150px;
+    height: 500px;
+    overflow: hidden;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    height: 100%;
+    width: 16%;
+}
+.Row1 {
+    display: inline-flex;
+    justify-content: center;
+}
+#One{
+    box-shadow: 5px 5px 10px black;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: white;
+    width: 650px;
+    height: 400px;
+    margin: auto;
+    margin-right: 50px;
+}
+#Two {
+    box-shadow: 5px 5px 10px black;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: white;
+    width: 650px;
+    height: 400px;
+    margin: auto;
+    margin-left: 50px;
+}
+.Row2{
+    display: inline-flex;
+    justify-content: center;
+}
+#Three {
+    box-shadow: 5px 5px 10px black;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: white;
+    width: 650px;
+    height: 400px;
+    margin: auto;
+    margin-right: 50px;
+}
+#Four {
+    box-shadow: 5px 5px 10px black;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: white;
+    width: 650px;
+    height: 400px;
+    margin: auto;
+    margin-left: 50px;
+}
+.Row3 {
+    display: inline-flex;
+    justify-content: center;
+}
+#Five {
+    box-shadow: 5px 5px 10px black;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: white;
+    width: 650px;
+    height: 400px;
+    margin: auto;
+    margin-right: 50px;
+}
+#Six {
+    box-shadow: 5px 5px 10px black;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: white;
+    width: 650px;
+    height: 400px;
+    margin: auto;
+    margin-left: 50px;
+}
+
+
+/* THIS IS FOR THE PAGINATION EFFECT BACK TO HOME */
+
+.pagination{
+    position: relative;
+    display: inline-flex;
+    top: 70px;
+    right: 700px;
+}
+#arrowhover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.1s ease-out;
+}
+#arrowhover:hover{
+    opacity: 1;
+}
