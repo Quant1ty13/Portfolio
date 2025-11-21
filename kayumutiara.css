@@ -90,13 +90,13 @@ main{
 
 #Week11{
     display: inline-flex;
-    background-color: rgba(10, 73, 10, 0.84);
+    background-color: rgba(16, 16, 16, 0.65);
     width: 100%;
     color: white;
 }
 #Week11Title{
     font-size: 40px;
-    background-color: rgba(10, 73, 10, 0.84);
+    background-color: rgba(16, 16, 16, 0.65);
     color: white;
     width: 100%;
     text-align: center;
@@ -151,13 +151,13 @@ main{
 
 #Week13{
     display: inline-flex;
-    background-color: rgba(10, 73, 10, 0.84);
+    background-color: rgba(16, 16, 16, 0.65);
     width: 100%;
     color: white;
 }
 #Week13Title{
     font-size: 40px;
-    background-color: rgba(10, 73, 10, 0.84);
+    background-color: rgba(16, 16, 16, 0.65);
     color: white;
     width: 100%;
     text-align: center;
@@ -212,13 +212,13 @@ main{
 
 #Week16{
     display: inline-flex;
-    background-color: rgba(10, 73, 10, 0.84);
+    background-color: rgba(16, 16, 16, 0.65);
     width: 100%;
     color: white;
 }
 #Week16Title{
     font-size: 40px;
-    background-color: rgba(10, 73, 10, 0.84);
+    background-color: rgba(16, 16, 16, 0.65);
     color: white;
     width: 100%;
     text-align: center;
@@ -268,4 +268,50 @@ main{
     padding: 10px;
     text-align: left;
     margin-inline: 190px 100px;
+}
+
+
+/* THIS IS FOR THE REFLECTION AND SUMMARY SECTION */
+
+.ReflectionSummary{
+    background-color: rgba(101, 37, 94, 0.8);
+    color: white;
+}
+#RSTitle{
+    font-size: 80px;
+    text-align: center;
+}
+.ReflectionSummary h2{
+    margin-left: 50px;
+    text-align: center;
+    width: 1400px;
+}
+
+
+/* THIS IS FOR THE PAGINATION EFFECT */
+
+.pagination{
+    position: relative;
+    margin-left: 70px;
+    top: 45px;
+}
+#arrow{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#arrowhover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.1s ease-out;
+}
+#arrowhover:hover{
+    opacity: 1;
+}
+#projects{
+    position: relative;
+    left: -10px;
+    bottom: 70px;
 }
