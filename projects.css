@@ -29,7 +29,7 @@ body{
     height: 100%;
     width: 16%;
 }
-.Row1 {
+.Row1{
     display: inline-flex;
     justify-content: center;
 }
@@ -39,17 +39,17 @@ body{
     padding: 10px;
     background-color: white;
     width: 650px;
-    height: 400px;
+    height: 460px;
     margin: auto;
     margin-right: 50px;
 }
-#Two {
+#Two{
     box-shadow: 5px 5px 10px black;
     border: 3px solid black;
     padding: 10px;
     background-color: white;
     width: 650px;
-    height: 400px;
+    height: 460px;
     margin: auto;
     margin-left: 50px;
 }
@@ -57,59 +57,120 @@ body{
     display: inline-flex;
     justify-content: center;
 }
-#Three {
+#Three{
     box-shadow: 5px 5px 10px black;
     border: 3px solid black;
     padding: 10px;
     background-color: white;
     width: 650px;
-    height: 400px;
+    height: 460px;
     margin: auto;
     margin-right: 50px;
 }
-#Four {
+#Four{
     box-shadow: 5px 5px 10px black;
     border: 3px solid black;
     padding: 10px;
     background-color: white;
     width: 650px;
-    height: 400px;
+    height: 460px;
     margin: auto;
     margin-left: 50px;
 }
-.Row3 {
+.Row3{
     display: inline-flex;
     justify-content: center;
 }
-#Five {
+#Five{
     box-shadow: 5px 5px 10px black;
     border: 3px solid black;
     padding: 10px;
     background-color: white;
     width: 650px;
-    height: 400px;
+    height: 460px;
     margin: auto;
     margin-right: 50px;
 }
-#Six {
+#Six{
     box-shadow: 5px 5px 10px black;
     border: 3px solid black;
     padding: 10px;
     background-color: white;
     width: 650px;
-    height: 400px;
+    height: 460px;
+    margin: auto;
+    margin-left: 50px;
+}
+.Row4{
+    display: inline-flex;
+    justify-content: center;
+}
+#Seven{
+    box-shadow: 5px 5px 10px black;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: white;
+    width: 650px;
+    height: 460px;
+    margin: auto;
+    margin-right: 50px;
+}
+#Eight{
+    box-shadow: 5px 5px 10px black;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: white;
+    width: 650px;
+    height: 460px;
+    margin: auto;
+    margin-left: 50px;
+}
+.Row5{
+    display: inline-flex;
+    justify-content: center;
+}
+#Nine{
+    box-shadow: 5px 5px 10px black;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: white;
+    width: 650px;
+    height: 460px;
+    margin: auto;
+    margin-right: 50px;
+}
+#Ten{
+    box-shadow: 5px 5px 10px black;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: white;
+    width: 650px;
+    height: 460px;
     margin: auto;
     margin-left: 50px;
 }
 
 
-/* THIS IS FOR THE PAGINATION EFFECT BACK TO HOME */
+/* THIS IS FOR THE PAGINATION TEXTS*/
+
+.paginationtexts{
+    display: inline-flex;
+    color: white;
+}
+#Home{
+    margin-right: 395px;
+}
+#Events{
+    margin-left: 530px;
+}
+
+
+/* THIS IS FOR THE PAGINATION EFFECTS */
 
 .pagination{
     position: relative;
     display: inline-flex;
-    top: 70px;
-    right: 700px;
+    right: 550px;
 }
 #arrowhover{
     position: absolute;
@@ -119,5 +180,24 @@ body{
     transition: opacity 0.1s ease-out;
 }
 #arrowhover:hover{
+    opacity: 1;
+}
+#arrowhover:hover #texthover{
+    opacity: 1;
+    color: white;
+}
+.pagination2{
+    position: relative;
+    display: inline-flex;
+    left: 550px;
+}
+#arrowhover2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.1s ease-out;
+}
+#arrowhover2:hover{
     opacity: 1;
 }

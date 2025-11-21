@@ -1,0 +1,271 @@
+/* THIS IS FOR THE HEADER SECTION (INTRODUCTION) */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Kanit;
+    box-sizing: border-box;
+}
+.Introduction{
+    background-color: rgba(101, 37, 94, 0.8);
+    color: white;
+}
+#Title{
+    text-align: center;
+    font-size: 80px;
+}
+
+
+/* THIS IS FOR THE DETAILS SECTION OF THE HEADER PAGE */
+
+.Introduction h2{
+    margin-left: 160px;
+    font-size: 30px;
+}
+.details{
+    display: inline-flex;
+    margin-left: 100px;
+    margin-top: -15px;
+}
+.details img{
+    display: block;
+    height: 410px;
+    width: auto;
+    border: 3px solid black;
+    border-radius: 100%;
+}
+.details p{
+    font-size: 20px;
+    width: 50vw;
+    height: 59vh;
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: left;
+    margin-inline: 50px 100px;
+}
+@media(max-width: 1400px){
+    img{
+        display: none;
+    }
+}
+
+
+/* THIS IS FOR THE DOCUMENTATION SECTION OF THE PAGE */
+
+main{
+    margin-top: 15px;
+}
+#TitleC{
+    color: black;
+    text-align: center;
+    font-size: 80px;
+}
+#Week10{
+    margin-left: 100px;
+    display: inline-flex;
+}
+#Week10Title{
+    text-align: center;
+    font-size: 40px;
+}
+#Week10 img{
+    display: block;
+    margin-top: 10px;
+    height: 450px;
+    width: auto;
+    border: 3px solid rgba(101, 37, 94, 0.8);
+}
+#Week10 p{
+    font-size: 32px;
+    width: 600px;
+    height: 59vh;
+    overflow: hidden;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: left;
+    margin-inline: 50px 100px;
+}
+
+
+#Week11{
+    display: inline-flex;
+    background-color: rgba(10, 73, 10, 0.84);
+    width: 100%;
+    color: white;
+}
+#Week11Title{
+    font-size: 40px;
+    background-color: rgba(10, 73, 10, 0.84);
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+#Week11 img{
+    display: block;
+    margin-top: 20px;
+    margin-left: 230px;
+    height: 450px;
+    width: auto;
+    border: 3px solid white;
+}
+#Week11 p{
+    font-size: 32px;
+    width: 600px;
+    height: 59vh;
+    overflow: hidden;
+    margin-top: 80px;
+    padding: 10px;
+    text-align: left;
+    margin-inline: 200px 100px;
+}
+
+
+#Week12{
+    margin-left: 100px;
+    display: inline-flex;
+}
+#Week12Title{
+    text-align: center;
+    font-size: 40px;
+}
+#Week12 img{
+    display: block;
+    margin-top: 10px;
+    height: 450px;
+    margin-left: 100px;
+    width: auto;
+    border: 3px solid rgba(101, 37, 94, 0.8);
+}
+#Week12 p{
+    font-size: 32px;
+    width: 600px;
+    height: 59vh;
+    overflow: hidden;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: left;
+    margin-inline: 180px 100px;
+}
+
+
+#Week13{
+    display: inline-flex;
+    background-color: rgba(10, 73, 10, 0.84);
+    width: 100%;
+    color: white;
+}
+#Week13Title{
+    font-size: 40px;
+    background-color: rgba(10, 73, 10, 0.84);
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+#Week13 img{
+    display: block;
+    margin-top: 20px;
+    margin-left: 100px;
+    height: 450px;
+    width: auto;
+    border: 3px solid white;
+}
+#Week13 p{
+    font-size: 32px;
+    width: 600px;
+    height: 59vh;
+    overflow: hidden;
+    margin-top: 80px;
+    padding: 10px;
+    text-align: left;
+    margin-inline: 40px 100px;
+}
+
+
+#Week15{
+    margin-left: 100px;
+    display: inline-flex;
+}
+#Week15Title{
+    text-align: center;
+    font-size: 40px;
+}
+#Week15 img{
+    display: block;
+    margin-top: 10px;
+    margin-left: 120px;
+    height: 450px;
+    width: auto;
+    border: 3px solid rgba(101, 37, 94, 0.8);
+}
+#Week15 p{
+    font-size: 32px;
+    width: 600px;
+    height: 59vh;
+    overflow: hidden;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: left;
+    margin-inline: 190px 100px;
+}
+
+
+#Week16{
+    display: inline-flex;
+    background-color: rgba(10, 73, 10, 0.84);
+    width: 100%;
+    color: white;
+}
+#Week16Title{
+    font-size: 40px;
+    background-color: rgba(10, 73, 10, 0.84);
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+#Week16 img{
+    display: block;
+    margin-top: 20px;
+    margin-left: 220px;
+    height: 450px;
+    width: auto;
+    border: 3px solid white;
+}
+#Week16 p{
+    font-size: 32px;
+    width: 600px;
+    height: 59vh;
+    overflow: hidden;
+    margin-top: 80px;
+    padding: 10px;
+    text-align: left;
+    margin-inline: 190px 100px;
+}
+
+
+#Week17{
+    margin-left: 100px;
+    display: inline-flex;
+}
+#Week17Title{
+    text-align: center;
+    font-size: 40px;
+}
+#Week17 img{
+    display: block;
+    margin-top: 10px;
+    margin-left: 120px;
+    height: 450px;
+    width: auto;
+    border: 3px solid rgba(101, 37, 94, 0.8);
+}
+#Week17 p{
+    font-size: 32px;
+    width: 600px;
+    height: 59vh;
+    overflow: hidden;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: left;
+    margin-inline: 190px 100px;
+}
